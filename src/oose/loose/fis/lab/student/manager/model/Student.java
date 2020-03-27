@@ -44,7 +44,10 @@ public class Student {
     private double meanGrade;
 
     public Student(String firstName, String lastName, int age, double meanGrade) {
-        //assignments
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.meanGrade = meanGrade;
     }
 
     @Override
